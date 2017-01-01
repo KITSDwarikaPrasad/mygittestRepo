@@ -21,3 +21,14 @@ repositories {
 dependencies {
     testCompile group: 'junit', name: 'junit', version:'4.8'
 }
+
+task(hello) {
+    doLast {
+        println "hello"
+    }
+}
+
+task(copy, type: Copy) {
+    from(file('srcDir'))
+    into(buildDir)
+}
