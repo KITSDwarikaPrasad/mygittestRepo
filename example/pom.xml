@@ -30,9 +30,9 @@
 	
 	 <repositories>
     <repository>
-      <id>my-repo1</id>
-      <name>your custom repo</name>
-      <url>http://lnxs0592.uk.b-and-q.com:8088/nexus/content/repositories/</url>
+      <id>releases</id>
+      <name>releases</name>
+      <url>http://lnxs0592.uk.b-and-q.com:8088/nexus/content/repositories/releases</url>
     </repository>
 	</repositories>		 
 	<developers>
