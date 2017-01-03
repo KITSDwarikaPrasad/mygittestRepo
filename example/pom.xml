@@ -34,7 +34,13 @@
 			<name>releases</name>
 			<url>http://lnxs0592.uk.b-and-q.com:8088/nexus/content/repositories/releases</url>
 		</repository>
-	</repositories>		 
+	</repositories>		
+<pluginRepositories>
+    <pluginRepository>
+      <id>releases</id>
+      <url>http://lnxs0592.uk.b-and-q.com:8088/nexus/content/repositories/releases</url>
+    </pluginRepository>
+  </pluginRepositories>	
 	<!-- <developers>
 		<developer>
 			<email>kevinsawicki@gmail.com</email>
