@@ -7,9 +7,9 @@
 	<version>0.1-SNAPSHOT</version>
 	<name>GitHub Maven Plugin Example</name>
 	<description>Project to demonstrate GitHub Maven plugins</description>
-	<url>https://github.com/kevinsawicki/github-maven-example</url>
+	<!-- <url>https://github.com/kevinsawicki/github-maven-example</url> -->
 
-	<issueManagement>
+	<!-- <issueManagement>
 		<url>https://github.com/kevinsawicki/github-maven-example/issues</url>
 		<system>GitHub Issues</system>
 	</issueManagement>
@@ -26,29 +26,29 @@
 		<url>https://github.com/kevinsawicki/github-maven-example</url>
 		<connection>scm:git:git://github.com/kevinsawicki/github-maven-example.git</connection>
 		<developerConnection>scm:git:git@github.com:kevinsawicki/github-maven-example.git</developerConnection>
-	</scm>
+	</scm> -->
 	
-	 <repositories>
-    <repository>
-      <id>releases</id>
-      <name>releases</name>
-      <url>http://lnxs0592.uk.b-and-q.com:8088/nexus/content/repositories/releases</url>
-    </repository>
+	<repositories>
+		<repository>
+			<id>releases</id>
+			<name>releases</name>
+			<url>http://lnxs0592.uk.b-and-q.com:8088/nexus/content/repositories/releases</url>
+		</repository>
 	</repositories>		 
-	<developers>
+	<!-- <developers>
 		<developer>
 			<email>kevinsawicki@gmail.com</email>
 			<name>Kevin Sawicki</name>
 			<url>https://github.com/kevinsawicki</url>
 			<id>kevinsawicki</id>
 		</developer>
-	</developers>
+	</developers> -->
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
-	<build>
+	<!-- <build>
 		<plugins>
 			<plugin>
 				<groupId>com.github.github</groupId>
@@ -85,7 +85,7 @@
 						<phase>site</phase>
 					</execution>
 				</executions>
-			</plugin>
+			</plugin> -->
 			<!--<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-site-plugin</artifactId>
@@ -127,7 +127,7 @@
 					<target>1.6</target>
 				</configuration>
 			</plugin>
-			<plugin>
+			<!-- <plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jar-plugin</artifactId>
 				<configuration>
@@ -162,7 +162,7 @@
 				</executions>
 			</plugin>
 		</plugins>
-	</build>
+	</build> -->
 
 	<dependencies>
 		<dependency>
