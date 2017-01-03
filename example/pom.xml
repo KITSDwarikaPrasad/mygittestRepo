@@ -27,7 +27,14 @@
 		<connection>scm:git:git://github.com/kevinsawicki/github-maven-example.git</connection>
 		<developerConnection>scm:git:git@github.com:kevinsawicki/github-maven-example.git</developerConnection>
 	</scm>
-
+	
+	 <repositories>
+    <repository>
+      <id>my-repo1</id>
+      <name>your custom repo</name>
+      <url>http://lnxs0592.uk.b-and-q.com:8088/nexus/content/repositories/</url>
+    </repository>
+	</repositories>		 
 	<developers>
 		<developer>
 			<email>kevinsawicki@gmail.com</email>
